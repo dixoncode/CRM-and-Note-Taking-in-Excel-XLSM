@@ -16,6 +16,14 @@ To make **CRM tracking in Excel** more efficient, I researched how a **CRM offic
 This dataset contains a single file:
 - **CRM Finance Loan Tracking Excel File.xlsm**
 
+### How to Use the Excel File:
+First, **enable macros** in the Excel file. Then, you can proceed as follows:
+On the first sheet called **CLIENT LOANS**, try typing in column M (Current Note) for any client. The **VBA code** will automatically update the **1st to 5th Latest Notes** in columns N to R.
+You can look the note logs in the second sheet called **LogSheet**.
+The third sheet called **CountSpecific** shows the count of specific notes for each client.
+
+Note that you can tweak the functionality of these XLSM files to suit your needs, by removing some unneeded columns and adding new ones. Just remember to modify the VBA code accordingly.
+
 ### Columns Included:
 - **Client**
 - **Bank Branch Name**
